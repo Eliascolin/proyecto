@@ -1,0 +1,17 @@
+.subtitle{
+display: flex;
+align-items: center;
+gap: 0.65rem;
+span {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-left: 1.5rem;
+}
+ion-icon{
+    background-color: rgb(64, 64, 214);
+    color: azure;
+    border-radius: 50%;
+    }
+}
+
