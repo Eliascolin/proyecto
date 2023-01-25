@@ -157,23 +157,33 @@
     height: 89.9rem ;
     padding-top: 16rem;
     padding-bottom: 8rem;
+    background-image: url(../img/img\ fundo\ s-story.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
 
 
 
 
-    .left{
+    .left{ 
+
         width: 100%;
         max-width: 62.9rem;
-
-
+        
+        span{
+            color: #000000;
+        }
           
     h2{
      margin-top: 2.8rem;
      margin-bottom: 2.4rem;   
      max-width: 50.2rem;
+     color: #000000;
     }
 
-    p{
+    p{color: #000000;
         margin-bottom: 5.6rem;
     }
     .corp{
@@ -189,8 +199,10 @@
         }
 
         img{
-            width: 12rem;
+            width: 100%;
+            max-width: 24rem;
             height: 6rem ;
+         
         }
     }
     }
