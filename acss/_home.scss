@@ -251,6 +251,21 @@ justify-content: space-between;
     }
 }
 
+.right{
+    display: flex;
+    align-items: center;
+    .text{
+       span{
+        display: block;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 140%;
+        max-width: 14.3rem;
+        margin-top: 2.2rem;
+       } 
+    }
+}
+
 
     }
 
