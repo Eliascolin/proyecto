@@ -216,3 +216,42 @@
     }
     
 }
+
+
+
+
+.s-charecter{
+
+
+    img{
+        width: 12rem;
+        height: 12rem;
+    }
+background-image: url(../img/fundo-s-charecter.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+    padding-top: 17.6rem;
+    padding-bottom: 14.3rem;
+    overflow: hidden;
+    
+    
+    
+    .description{
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+
+.left{
+    width: 100%;
+    max-width: 62.1rem;
+    h2{
+      margin-top: 2.8rem;
+      margin-bottom: 2.4rem;  
+    }
+}
+
+
+    }
+
+}
