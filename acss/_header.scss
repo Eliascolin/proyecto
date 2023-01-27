@@ -37,4 +37,31 @@ header{
         }
     
         }
+
+        
+
     }
+
+    .container{
+
+        @media(max-width: 560px){
+
+            .sony{
+                display: none;
+            }
+
+           
+            .plataforma{
+                
+                span{
+    
+                    display: none;
+                }
+            }
+    
+        }
+    
+    }
+
+    
+    
