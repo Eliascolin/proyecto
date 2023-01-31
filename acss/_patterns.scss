@@ -7,12 +7,23 @@ span {
     font-size: 2rem;
     line-height: 2.2rem;
     margin-left: 1.5rem;
+    @media(max-width: 1200px){
+        font-size: 1.8rem;
+        
+    }
+
+    @media(max-width: 991px){justify-content: center;}
+}
+
+@media(max-width: 560px){
+    span {font: size 1.6rem; ;
 }
 ion-icon{
     background-color: rgb(64, 64, 214);
     color: azure;
     border-radius: 50%;
     }
+  
 }
 
 h1{
@@ -20,6 +31,13 @@ h1{
 font-weight: 700;
 font-size: 12.4rem;
 line-height: 97.5%;
+
+@media(max-width: 1200px){
+    font-size: 10rem;
+    
+
+}
+
 }
 
 h2{
@@ -101,5 +119,4 @@ span{
     }
 }
 
-
-
+}
