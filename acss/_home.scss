@@ -6,8 +6,9 @@
     padding-bottom: 10.3rem;
     background-image: url(../img/campo\ fifa.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-size: cover;
+    background-attachment: fixed;
 
     .container{
         display: flex;
