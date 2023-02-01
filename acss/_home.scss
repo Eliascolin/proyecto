@@ -234,7 +234,7 @@
 
 
 .s-charecter{
-    display: none;
+   
 
 
     img{
@@ -518,3 +518,69 @@ justify-content: space-between;
 
         }
     }
+
+
+    .s-charecter{
+         
+        @media(max-width: 1200px){
+
+
+            padding: 6rem 0;
+
+
+
+        }
+
+         @media(max-width: 991px){
+
+            .description{
+                flex-direction: column;
+                align-items: center;
+
+
+               
+                
+            }
+
+         }
+
+         @media(max-width:560px ){
+
+            padding:  4rem 0;
+            .description{
+              
+                .left{
+
+                    h2{
+                        font-size: 3rem;
+                    }
+
+                    p{
+                        font-size: 1.6rem;
+                    }
+                }
+
+
+                 .right{
+
+                    flex-direction: column;
+                    align-items: center;
+                    .text{
+                        span{
+                            
+                            max-width: 100%;
+                            font-size: 3rem;
+                        }
+                    }
+                 }
+
+            }
+
+
+         }
+
+    }
+
+
+    
+
