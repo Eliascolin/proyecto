@@ -254,6 +254,10 @@ header {
   max-width: 24rem;
 }
 
+.jogardor {
+  width: 5rem;
+}
+
 .git-hub {
   width: 12rem;
   position: fixed;
